@@ -12,6 +12,11 @@ void printSaying(){
 
 }
 
+void printNewSaying(){
+
+	cout << "Gobblers the Goose on the Loose!" << endl;
+
+}
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -28,6 +33,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	cout << goose*100 << endl;
 
 	printSaying();
+	printNewSaying();
 
 	cin >> goose;
 
