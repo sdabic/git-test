@@ -6,6 +6,13 @@
 
 using namespace std;
 
+void printSaying(){
+
+	cout << "Hungers the goose!" << endl;
+
+}
+
+
 int _tmain(int argc, _TCHAR* argv[])
 {
 	cout << "HELLO WORLD!" << endl;
@@ -19,6 +26,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	cin >> goose;
 
 	cout << goose*100 << endl;
+
+	printSaying();
 
 	cin >> goose;
 
